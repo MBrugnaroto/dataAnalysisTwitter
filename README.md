@@ -29,7 +29,8 @@ Para fazer a autenticação da API usando suas credenciais seguindo script:
 </pre>
 
 ## Busca de Tweets
-**Um sistema implementado para coleta de dados foi através da busca por palavra chave**
+**Um sistema implementado para coleta de dados foi através da busca por palavra chave.**
+
 Para saber mais como é feita a busca, além da documentação, um método fácil é verificar diretamente na aba de pesquisa do twitter.
 
 **Fazer a busca por palavra**
@@ -39,10 +40,10 @@ Para saber mais como é feita a busca, além da documentação, um método fáci
 
 **Onde:**
 
-*keyword*     --> conjunto de palavras chaves
-*count*       --> quantidade de tweets a serem retornados
-*result_type* --> mixed (default, tweets mixados), recent (tweets recentes), popular (tweets mais populares)
-*tweets*      --> variável que irá armazenar todos os tweets
+<p>keyword     --> conjunto de palavras chaves.</p>
+<p>count       --> quantidade de tweets a serem retornados.</p>
+<p>result_type --> mixed (default, tweets mixados), recent (tweets recentes), popular (tweets mais populares).</p>
+<p>tweets*     --> variável que irá armazenar todos os tweets.</p>
 
  **Observação:**
  
@@ -77,11 +78,11 @@ em um arquivo json.
 
 **Onde:**
 
-*filename*     --> destino dos dados (arquivo).
-*ensure_ascii* --> para True (o padrão), é garantido que a saída tenha todos os caracteres não ASCII recebidos. Se for False, esses caracteres serão exibidos como estão.
-*sort_keys*    --> para True (padra é False), a saída dos dicionários será classificada por chave.
-*indent*       --> O argumento é usado para imprimir JSON de maneira bonita para torná-lo mais legível. O padrão é (',', ':'). Para obter a representação JSON mais compacta, você deve usar (',', ':') para eliminar espaços em branco.
-*separators*   --> Especificar qualquer separador entre chave e valor.
+<p>filename     --> destino dos dados (arquivo).</p>
+<p>ensure_ascii --> para True (o padrão), é garantido que a saída tenha todos os caracteres não ASCII recebidos. Se for False, esses caracteres serão exibidos como estão.</p>
+<p>sort_keys    --> para True (padra é False), a saída dos dicionários será classificada por chave.</p>
+<p>indent       --> O argumento é usado para imprimir JSON de maneira bonita para torná-lo mais legível. O padrão é (',', ':'). Para obter a representação JSON mais compacta, <p>você deve usar (',', ':') para eliminar espaços em branco.</p>
+<p>separators   --> Especificar qualquer separador entre chave e valor.</p>
 
 **Armazenar no MongoDB:**
 Deve-se ser feito inicialmente a importação do *pymongo*:
