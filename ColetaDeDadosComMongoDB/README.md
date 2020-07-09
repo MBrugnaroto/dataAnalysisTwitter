@@ -1,6 +1,3 @@
-# Análise de dados do Twitter
-Breve analises de tweets para aprendizado na área de Análise de Dados. O script foi desenvolvido com a utilização da plataforma do Anaconda e no ambiente do Jupyter Notebook.
-
 ## Coleta de dados realizada em Python e armazeado no MongoDB (coletaDeDadosDoTwitter_Python)
 ### Instalação da biblioteca para manipulação da API do twitter utilizando o Anaconda
 **Observação:**
