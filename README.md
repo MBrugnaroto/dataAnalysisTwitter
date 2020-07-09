@@ -43,7 +43,7 @@ Para saber mais como é feita a busca, além da documentação, um método fáci
 <p>keyword     --> conjunto de palavras chaves.</p>
 <p>count       --> quantidade de tweets a serem retornados.</p>
 <p>result_type --> mixed (default, tweets mixados), recent (tweets recentes), popular (tweets mais populares).</p>
-<p>tweets*     --> variável que irá armazenar todos os tweets.</p>
+<p>tweets     --> variável que irá armazenar todos os tweets.</p>
 
  **Observação:**
  
