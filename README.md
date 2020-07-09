@@ -19,14 +19,13 @@ Tenha certeza que todos os pacotes foram previamente instalados:
 Para utilizar a API do twitter, é necessário ter uma conta no twitter, solicitar o acesso de desenvolvedor, criar sua aplicação, gerar suas credenciais.
 Para fazer a autenticação da API usando suas credenciais seguindo script:
 
+<pre><code>This is a code block.
+</code></pre>
+
 * consumer_key = "Sua_API_Key"
 * consumer_secret = "Sua_API_Secret_Key"
 * access_token = "Sua_Access_token"
 * access_token_secret = "Sua_Access_token_secret"
-
-* auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-* auth.set_access_token(access_token, access_token_secret)
-* token = tweepy.API(auth)
 
 ## Busca de Tweets
 #### Um sistema implementado para coleta de dados foi através da busca por palavra chave
@@ -55,3 +54,16 @@ Fazer a busca por palavra chave, busca o text do tweet por inteiro:
  * A função *sentiment.polarity* retornará um número entre -1 e 1, onde quanto maior esse número, menos "chateada" a pessoa que postou está. 
  
  Ou seja, quanto maior esse número mais positivo é o tweet. Pode-se ainda considerar que a polaridade 0 (zero) pode indicar uma neutralidade do tweet.
+
+## Armazenamento dos dados do Twitter
+*Armazenar em arquivos:*
+Para fazer o armazenamento dos tweets, deve-se ser feito a conversão dos dados para string e depois a deserialização para ficar no formato correto para adicionar
+em um arquivo json.
+
+*json_str = json.dumps(dados._json) --> Conversão para string
+*parsed = json.loads(json_str)      --> Deserialização da string para um objeto com formato json
+*json.dump(parsed, filename, ensure_ascii=False, sort_keys=True, indent = 4, separators=(',', ':')) --> Armazena o dado deseroaçozado no arquivo
+
+*Onde:*
+
+
