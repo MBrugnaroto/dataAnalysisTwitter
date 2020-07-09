@@ -12,7 +12,7 @@ Esse projeto consiste na Análise de sentimentos de tweets coletados através da
 
 ##### Instalação dos pacotes
 
-Antes de realizar o desafio será necessário instalar os seguintes pacotes:
+Antes de realizar-lo será necessário instalar os seguintes pacotes:
 * **Geopy:** Usada para definir a geolocalização<br>
 <pre>
 <code>conda install -c conda-forge geopy</code>
@@ -78,10 +78,10 @@ Fazer a busca por palavra chave, busca o text do tweet por inteiro:
 
 ## Identificação dos tweets mais curitdos e retweetados
 Os dados estão alocados no dataframe construido com a biblioteca pandas. Assim, é possível usar as funções da biblioteca numpy, como a função max, que retorna o maior valor
-dos dados que estão em vetor. Por fim, esse processo é utilizado para que se possa verificar os tweets com mais curtidas o retweets através das posições dentro do dataframe.
+dos dados que estão em vetor. Por fim, esse processo é utilizado através das posições dentro do dataframe para que se possa verificar os tweets com mais curtidas ou retweets.
  
 ## Identificar fonte de origem dos tweets
-Como os proprios tweets trazem a informção da fonte do tweet, é apenas utilizado essa informação e alocado em um vetor que conterá em cada uma de suas posições o tipo da fonte.
+Como os proprios tweets trazem a informação da fonte do tweet, é apenas utilizado essa informação e alocado em um vetor que conterá em cada uma de suas posições o tipo da fonte.
 Assim é passado por todos os tweets indenticando cada fonte.
 
 ## Análise de polaridade para a analise de sentimento
