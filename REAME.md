@@ -1,0 +1,2 @@
+analiseDeSentimentoNoTwitter_Python.ipynb  coletaDeDadosDoTwitter_R.ipynb
+coletaDeDadosDoTwitter_Python.ipynb	   REAME.md
