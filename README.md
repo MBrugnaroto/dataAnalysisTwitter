@@ -19,13 +19,12 @@ Tenha certeza que todos os pacotes foram previamente instalados:
 Para utilizar a API do twitter, é necessário ter uma conta no twitter, solicitar o acesso de desenvolvedor, criar sua aplicação, gerar suas credenciais.
 Para fazer a autenticação da API usando suas credenciais seguindo script:
 
-<pre><code>This is a code block.
-</code></pre>
-
-* consumer_key = "Sua_API_Key"
-* consumer_secret = "Sua_API_Secret_Key"
-* access_token = "Sua_Access_token"
-* access_token_secret = "Sua_Access_token_secret"
+<pre>
+<code>consumer_key = "Sua_API_Key"</code>
+<code>consumer_secret = "Sua_API_Secret_Key"</code>
+<code>access_token = "Sua_Access_token</code>
+<code>access_token_secret = "Sua_Access_token_secret"</code>
+</pre>
 
 ## Busca de Tweets
 #### Um sistema implementado para coleta de dados foi através da busca por palavra chave
