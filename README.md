@@ -30,13 +30,15 @@ Para fazer a autenticação da API usando suas credenciais seguindo script:
 
 ## Busca de Tweets
 **Um sistema implementado para coleta de dados foi através da busca por palavra chave**
-Para saber mais como é feita a busca, além da documentação, um método fácil é verificar diretamente na aba de pesquisa do twitter
+Para saber mais como é feita a busca, além da documentação, um método fácil é verificar diretamente na aba de pesquisa do twitter.
+
 **Fazer a busca por palavra**
 <pre>
 <code>tweets = token.search(keyword, count, result_type)</code>
 </pre>
 
 **Onde:**
+
 *keyword*     --> conjunto de palavras chaves
 *count*       --> quantidade de tweets a serem retornados
 *result_type* --> mixed (default, tweets mixados), recent (tweets recentes), popular (tweets mais populares)
@@ -74,6 +76,7 @@ em um arquivo json.
 </pre>
 
 **Onde:**
+
 *filename*     --> destino dos dados (arquivo).
 *ensure_ascii* --> para True (o padrão), é garantido que a saída tenha todos os caracteres não ASCII recebidos. Se for False, esses caracteres serão exibidos como estão.
 *sort_keys*    --> para True (padra é False), a saída dos dicionários será classificada por chave.
