@@ -13,18 +13,6 @@ Tenha certeza que todos os pacotes foram previamente instalados:
 <code>conda install -c conda-forge textblob</code>
 <code>conda install -c conda-forge numpy</code>
 </pre>
- 
-### Credenciais para utilização da API do Twitter
-
-Para utilizar a API do twitter, é necessário ter uma conta no twitter, solicitar o acesso de desenvolvedor, criar sua aplicação, gerar suas credenciais.
-Para fazer a autenticação da API usando suas credenciais seguindo script:
-
-<pre>
-<code>consumer_key = "Sua_API_Key"</code>
-<code>consumer_secret = "Sua_API_Secret_Key"</code>
-<code>access_token = "Sua_Access_token</code>
-<code>access_token_secret = "Sua_Access_token_secret"</code>
-</pre>
 
 ### Busca de Tweets
 **Um sistema implementado para coleta de dados foi através da busca por palavra chave.**
@@ -114,19 +102,7 @@ Tenha certeza que todos os pacotes foram previamente importados:
 <code>library(maps)</code>
 </pre>
 
-### Credenciais para utilização da API do Twitter
-
-Para utilizar a API do twitter, é necessário ter uma conta no twitter, solicitar o acesso de desenvolvedor, criar sua aplicação, gerar suas credenciais.
-Para fazer a autenticação da API usando suas credenciais seguindo script:
-
-<pre>
-<code>consumer_key <- "Sua_API_Key"</code>
-<code>consumer_secret <- "Sua_API_Secret_Key"</code>
-<code>access_token <- "Sua_Access_token</code>
-<code>access_token_secret <- "Sua_Access_token_secret"</code>
-</pre>
-
-Autenticação da API:
+### Autenticação da API:
 <pre>
 <code>token <- create_token(app = "nomeDoProjeto", consumer_key, consumer_secret,access_token, access_secret)</code>
 </pre>
