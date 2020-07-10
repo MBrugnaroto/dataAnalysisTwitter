@@ -61,10 +61,9 @@ Tenha certeza que todos os pacotes foram previamente importados:
 </pre>
 
 **Onde:**
-
-<p>n     --> número de tweets retornados</p>
-<p>include_rts       --> incluir (True) ou não (False) os retweets.</p>
-<p>exclude_replies --> incluir (True) ou não (false) as respostas dos tweets</p>
+* n - número de tweets retornados.
+* include_rts - incluir (True) ou não (False) os retweets.
+* exclude_replies - incluir (True) ou não (false) as respostas dos tweets.
 
 **Fazer a busca por hastags**
 <pre>
@@ -74,12 +73,11 @@ Tenha certeza que todos os pacotes foram previamente importados:
 </pre>
 
 **Onde:**
-
-<p>search.string     --> conjunto de palavras chaves (hastags) em formato de string</p>
-<p>lang       --> linguagem dos Tweets.</p>
-<p>type --> mixed (default, tweets mixados), recent (tweets recentes), popular (tweets mais populares).</p>
-<p>include_rts --> usado para indicar se inclui (TRUE) retweeets ou não (FALSE) na pesquisa.</p>
-<p>retryonratelimit --> usado para indicar se continua (TRUE) ou não (FALSE) depois do limite de 18000 tweets.</p>
+* search.string - conjunto de palavras chaves (hastags) em formato de string
+* lang - linguagem dos Tweets.
+* type - mixed (default, tweets mixados), recent (tweets recentes), popular (tweets mais populares).
+* include_rts - usado para indicar se inclui (TRUE) retweeets ou não (FALSE) na pesquisa.
+* retryonratelimit - usado para indicar se continua (TRUE) ou não (FALSE) depois do limite de 18000 tweets.
 
 
 ### Armazenamento dos dados do Twitter
