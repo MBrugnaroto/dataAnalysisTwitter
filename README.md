@@ -62,10 +62,9 @@ em um arquivo json.
 </pre>
 
 **Onde:**
-
-<p>filename     --> destino dos dados (arquivo).</p>
-<p>ensure_ascii --> para True (o padrão), é garantido que a saída tenha todos os caracteres não ASCII recebidos. Se for False, esses caracteres serão exibidos como estão.</p>
-<p>sort_keys    --> para True (padra é False), a saída dos dicionários será classificada por chave.</p>
-<p>indent       --> O argumento é usado para imprimir JSON de maneira bonita para torná-lo mais legível. O padrão é (',', ':'). Para obter a representação JSON mais compacta, você deve usar (',', ':') para eliminar espaços em branco.
-<p>separators   --> Especificar qualquer separador entre chave e valor.</p>
+* filename - destino dos dados (arquivo).
+* ensure_ascii - para True (o padrão), é garantido que a saída tenha todos os caracteres não ASCII recebidos. Se for False, esses caracteres serão exibidos como estão.
+* sort_keys - para True (padra é False), a saída dos dicionários será classificada por chave.
+* indent - O argumento é usado para imprimir JSON de maneira bonita para torná-lo mais legível. O padrão é (',', ':'). Para obter a representação JSON mais compacta, você deve usar (',', ':') para eliminar espaços em branco.
+* separators - Especificar qualquer separador entre chave e valor.
 
