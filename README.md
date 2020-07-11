@@ -52,7 +52,7 @@ Autenticação da API:
  * wait_on_rate_limit_notify - Imprima ou não uma notificação quando o Tweepy estiver aguardando a reposição dos limites de taxa
 
 ### Armazenar dados em arquivos JSON através do Python
-Para fazer o armazenamento dos tweets, deve-se ser feito a conversão dos dados para string e depois a deserialização para ficar no formato correto para adicionar
+Para fazer o armazenamento dos tweets, foi feito a conversão dos dados para string e depois a deserialização para ficar no formato correto para adicionar
 em um arquivo json.
 
 <pre>
